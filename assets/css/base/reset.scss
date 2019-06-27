@@ -3,6 +3,11 @@
    License: none (public domain)
 */
 
+* {
+  box-sizing: border-box;
+}
+
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -120,9 +125,9 @@ audio:not([controls]) {
  */
 
 html {
-    font-size: 100%; /* 1 */
-    -webkit-text-size-adjust: 100%; /* 2 */
-    -ms-text-size-adjust: 100%; /* 2 */
+    font-size: 62.5%; /* 1 */
+    -webkit-text-size-adjust: 62.5%; /* 2 */
+    -ms-text-size-adjust: 62.5%; /* 2 */
 }
 
 /**
