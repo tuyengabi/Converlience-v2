@@ -1,5 +1,10 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Oswald&display=swap");
 html {
   font-family: 'Montserrat', sans-serif; }
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Oswald', sans-serif; }
 
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0-modified | 20110126
@@ -336,12 +341,16 @@ textarea {
   background-image: url("../img/paysage.jpg");
   background-size: cover; }
   .header-container h1 {
-    font-size: 3rem;
+    color: #2D3F4B;
+    font-size: 4rem;
     position: relative;
     top: 35vh;
     width: 50%;
     padding: 1rem;
     margin-left: 4rem; }
+    .header-container h1 img {
+      width: 10rem;
+      height: 0.2rem; }
   .header-container p {
     position: relative;
     top: 40vh;
@@ -395,5 +404,13 @@ textarea {
       .navbar ul li a {
         color: #1d1d1d;
         text-decoration: none; }
+
+aside {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  display: flex;
+  flex-direction: column; }
 
 /*# sourceMappingURL=index.css.map */
