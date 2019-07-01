@@ -407,7 +407,7 @@ textarea {
 
 aside {
   position: fixed;
-  right: 0;
+  right: 1rem;
   top: 50%;
   transform: translate(0, -50%);
   display: flex;
