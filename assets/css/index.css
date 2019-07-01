@@ -24,7 +24,7 @@ del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
+form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
 article, aside, canvas, details, embed,
 figure, figcaption, footer, header, hgroup,
@@ -362,7 +362,6 @@ img {
 }
 
 fieldset {
-  border: 0;
   margin: 0;
   padding: 0;
 }
@@ -477,11 +476,11 @@ aside {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 2rem 0 5rem 0;
+  margin: 4rem 0 7rem 0;
 }
 .container-article h2 {
-  margin: 3rem 0 5rem 0;
-  font-size: 3rem;
+  margin: 5rem 0 8rem 0;
+  font-size: 4rem;
 }
 .container-article article {
   width: 90%;
