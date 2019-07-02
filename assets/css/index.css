@@ -472,6 +472,7 @@ aside {
 }
 
 footer {
+  margin-top: 10rem;
   height: 30%;
   width: 100%;
   font-size: 2rem;
