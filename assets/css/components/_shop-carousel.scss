@@ -65,7 +65,9 @@
     height: 50%;
   }
 
+
   &__icon-arrow-left {
+    cursor: pointer;
     position: absolute;
     left: 15%;
     top: 50%;
@@ -74,6 +76,7 @@
   }
 
   &__icon-arrow-right {
+    cursor: pointer;
     position: absolute;
     right: 15%;
     top: 50%;

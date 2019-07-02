@@ -663,6 +663,7 @@ footer .footer__section-copyright img {
   height: 50%;
 }
 .container-shop__icon-arrow-left {
+  cursor: pointer;
   position: absolute;
   left: 15%;
   top: 50%;
@@ -670,6 +671,7 @@ footer .footer__section-copyright img {
   z-index: 1;
 }
 .container-shop__icon-arrow-right {
+  cursor: pointer;
   position: absolute;
   right: 15%;
   top: 50%;
