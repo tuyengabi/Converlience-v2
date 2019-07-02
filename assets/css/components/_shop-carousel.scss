@@ -25,6 +25,15 @@
     background-color: #1d1d1d;
     opacity: 1;
     z-index: 1;
+    order: 1;
+  }
+
+  &__precedent-product {
+    order: 0;
+  }
+
+  &__last-product {
+    order: 2;
   }
 
   legend {

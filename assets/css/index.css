@@ -563,6 +563,13 @@ footer .footer__section-copyright img {
   background-color: #1d1d1d;
   opacity: 1;
   z-index: 1;
+  order: 1;
+}
+.container-shop__precedent-product {
+  order: 0;
+}
+.container-shop__last-product {
+  order: 2;
 }
 .container-shop legend {
   margin: auto;
