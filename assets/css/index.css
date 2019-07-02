@@ -538,11 +538,13 @@ aside {
 }
 
 footer {
+  display: flex;
+  flex-direction: column;
   margin-top: 10rem;
-  height: 30%;
+  height: 60vh;
   width: 100%;
   font-size: 2rem;
-  background: linear-gradient(60deg, #2D3F4B, #C7C7A6);
+  background: linear-gradient(50deg, #2D3F4B, #C7C7A6);
   background-size: cover;
 }
 footer .footer__section-nav-extra {
