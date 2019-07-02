@@ -1,13 +1,13 @@
 .container-shop {
+  height: 100vh;
   position: relative;
-  margin: 15rem 0 10vw 0;
   display: flex;
   justify-content: space-around;
 
   &__fieldset {
     display: hidden;
     width: 40%;
-    height: 40rem;
+    height: 90%;
     color: white;
     background-color: #1d1d1d;
     border: solid 0.1rem #2d2d2d;
@@ -20,7 +20,6 @@
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    height: 45rem;
     color: white;
     background-color: #1d1d1d;
     opacity: 1;
