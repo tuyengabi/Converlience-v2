@@ -583,10 +583,11 @@ footer .footer__section-copyright img {
   align-items: center;
 }
 .container-shop div p {
+  width: 50%;
   padding: 1rem;
 }
 .container-shop div img {
-  width: 100%;
+  width: 50%;
   height: 100%;
   padding: 1rem;
 }
