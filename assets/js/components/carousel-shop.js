@@ -19,12 +19,12 @@ export default (function test() {
 
     if(event.target == buttonLeft) {
 
-     toggleClass(activeProduct, 'container-shop__active-product');
-     toggleClass(activeProduct, 'container-shop__last-product');
-     toggleClass(precedentProduct, 'container-shop__active-product');
-     toggleClass(precedentProduct, 'container-shop__precedent-product');
-     toggleClass(lastProduct, 'container-shop__last-product');
-     toggleClass(lastProduct, 'container-shop__precedent-product');
+      toggleClass(activeProduct, 'container-shop__active-product');
+      toggleClass(activeProduct, 'container-shop__last-product');
+      toggleClass(precedentProduct, 'container-shop__active-product');
+      toggleClass(precedentProduct, 'container-shop__precedent-product');
+      toggleClass(lastProduct, 'container-shop__last-product');
+      toggleClass(lastProduct, 'container-shop__precedent-product');
       // let count = setInterval(anim, 10);
       // function anim() {
       // }
