@@ -608,34 +608,32 @@ footer .footer__section-copyright img {
 .container-shop {
   height: 100vh;
   position: relative;
-  display: flex;
-  justify-content: space-around;
 }
 .container-shop__fieldset {
-  display: hidden;
+  position: absolute;
+  transform: translate(-50%, 0);
   width: 40%;
-  height: 90%;
+  height: 80%;
   color: white;
   background-color: #1d1d1d;
   border: solid 0.1rem #2d2d2d;
   opacity: 0.3;
 }
 .container-shop__active-product {
-  width: 40%;
-  position: absolute;
   left: 50%;
   top: 50%;
+  height: 90%;
   transform: translate(-50%, -50%);
-  color: white;
-  background-color: #1d1d1d;
   opacity: 1;
   z-index: 1;
   order: 1;
 }
 .container-shop__precedent-product {
+  left: 25%;
   order: 0;
 }
 .container-shop__last-product {
+  left: 75%;
   order: 2;
 }
 .container-shop legend {
@@ -668,7 +666,7 @@ footer .footer__section-copyright img {
   left: 15%;
   top: 50%;
   transform: translate(50%, -50%);
-  z-index: 1;
+  z-index: 2;
 }
 .container-shop__icon-arrow-right {
   cursor: pointer;
@@ -676,7 +674,7 @@ footer .footer__section-copyright img {
   right: 15%;
   top: 50%;
   transform: translate(-50%, -50%);
-  z-index: 1;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=index.css.map */
