@@ -378,16 +378,19 @@ textarea {
 }
 
 .navbar {
+  position: absolute;
+  top: 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 10rem;
   width: 100%;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: white;
+  z-index: 5;
 }
-.navbar img {
-  width: 15vw;
-  height: 10vw;
+.navbar .navbar__logo {
+  width: 15rem;
+  height: 10rem;
   max-width: 14rem;
   max-height: 8rem;
   margin-left: 5rem;
@@ -465,9 +468,6 @@ textarea {
 .navbar ul .navbar__ul__li-garden:hover::before {
   width: 100%;
 }
-.navbar ul .navbar__ul__li-food {
-  color: blue;
-}
 .navbar ul .navbar__ul__li-food::before {
   content: "";
   width: 0;
@@ -483,6 +483,66 @@ textarea {
   width: 100%;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  animation: navbarIn ease 1s forwards;
+}
+@keyframes navbarIn {
+  0% {
+    height: 10rem;
+    background-color: white;
+  }
+  100% {
+    height: 7rem;
+    background-color: rgba(150, 150, 150, 0.7);
+  }
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  animation: navbarOut ease 1s forwards;
+}
+@keyframes navbarOut {
+  0% {
+    height: 7rem;
+    background-color: rgba(150, 150, 150, 0.7);
+  }
+  100% {
+    height: 10rem;
+    background-color: white;
+  }
+}
+
+.logo-fixed {
+  animation: logoOut ease 1s forwards;
+}
+@keyframes logoOut {
+  0% {
+    width: 15rem;
+    height: 10rem;
+  }
+  100% {
+    width: 9rem;
+    height: 6rem;
+  }
+}
+
+.logo-absolute {
+  animation: logoIn ease 1s forwards;
+}
+@keyframes logoIn {
+  0% {
+    width: 9rem;
+    height: 6rem;
+  }
+  100% {
+    width: 15rem;
+    height: 10rem;
+  }
+}
+
 .header-container {
   height: 100vh;
   width: 100%;
@@ -494,7 +554,7 @@ textarea {
 .header-container h1 {
   font-size: 4rem;
   position: relative;
-  top: 20%;
+  top: 30%;
   width: 50%;
   padding: 1rem;
   margin-left: 4rem;
@@ -505,7 +565,7 @@ textarea {
 }
 .header-container p {
   position: relative;
-  top: 25%;
+  top: 35%;
   max-width: 50rem;
   width: 50%;
   padding: 1rem;
@@ -513,7 +573,7 @@ textarea {
 }
 .header-container a {
   position: relative;
-  top: 30vh;
+  top: 40vh;
 }
 .header-container button {
   width: 40%;
