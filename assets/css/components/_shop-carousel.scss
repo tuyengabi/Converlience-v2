@@ -4,9 +4,10 @@
 
   &__fieldset {
     position: absolute;
+    top: 10%;
     transform: translate(-50%, 0);
-    width: 40%;
-    height: 80%;
+    width: 30%;
+    height: 60%;
     color: white;
     background-color: #1d1d1d;
     border: solid 0.1rem #2d2d2d;
@@ -14,23 +15,29 @@
   }
 
   &__active-product {
+    @extend .container-shop__fieldset;
     left: 50%;
     top: 50%;
-    height: 90%;
+    height: 70%;
     transform: translate(-50%, -50%);
     opacity: 1;
     z-index: 1;
     order: 1;
+    transition: all .5s ease;
   }
 
   &__precedent-product {
+    @extend .container-shop__fieldset;
     left: 25%;
     order: 0;
+    transition: all .5s ease-out;
   }
 
   &__last-product {
+    @extend .container-shop__fieldset;
     left: 75%;
     order: 2;
+    transition: all .5s ease-out;
   }
 
   legend {
