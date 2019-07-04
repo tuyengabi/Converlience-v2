@@ -58,7 +58,7 @@ export default (function test() {
               activeOpacity -= 0.1;
               activeProduct.style.opacity = activeOpacity;
             }
-          }, 43.75);
+          }, 21.875);
 
           let animActiveHeight = setInterval(function() {
 
@@ -68,7 +68,7 @@ export default (function test() {
               activeProduct.style.height = activeHeight + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animActiveTop = setInterval(function() {
 
@@ -78,7 +78,7 @@ export default (function test() {
               activeProduct.style.top = activeTop + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animActiveLeft = setInterval(function() {
 
@@ -88,12 +88,12 @@ export default (function test() {
               activeProduct.style.left = activeLeft + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animSwitchActive = setTimeout(function() {
             toggleClass(activeProduct, 'container-shop__active-product');
             toggleClass(activeProduct, 'container-shop__precedent-product');
-          }, 250);
+          }, 125);
 
           //////////////////////
           //  precedent part  //
@@ -109,12 +109,12 @@ export default (function test() {
               precedentProduct.style.left = precedentLeft + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animSwitchPrecedent = setTimeout(function() {
             toggleClass(precedentProduct, 'container-shop__precedent-product');
             toggleClass(precedentProduct, 'container-shop__last-product');
-          }, 250);
+          }, 125);
 
           /////////////////
           //  last part  //
@@ -135,7 +135,7 @@ export default (function test() {
               lastProduct.style.left = lastLeft + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animLastTransform = setInterval(function() {
 
@@ -145,7 +145,7 @@ export default (function test() {
               lastProduct.style.transform = `translate(-50%, -${lastTransform}%)`;
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animLastTop = setInterval(function() {
 
@@ -155,7 +155,7 @@ export default (function test() {
               lastProduct.style.top = lastTop + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animLastOpacity = setInterval(function() {
 
@@ -165,7 +165,7 @@ export default (function test() {
               lastProduct.style.opacity = lastOpacity;
             }
 
-          }, 43.75);
+          }, 21.875);
 
           let animLastHeight = setInterval(function() {
 
@@ -175,12 +175,12 @@ export default (function test() {
               lastProduct.style.height = lastHeight + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animSwitchLast = setTimeout(function() {
             toggleClass(lastProduct, 'container-shop__active-product');
             toggleClass(lastProduct, 'container-shop__last-product');
-          }, 250);
+          }, 125);
 
         }());
     }
@@ -217,7 +217,7 @@ export default (function test() {
               activeOpacity -= 0.1;
               activeProduct.style.opacity = activeOpacity;
             }
-          }, 43.75);
+          }, 21.875);
 
           let animActiveHeight = setInterval(function() {
 
@@ -227,7 +227,7 @@ export default (function test() {
               activeProduct.style.height = activeHeight + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animActiveTop = setInterval(function() {
 
@@ -237,7 +237,7 @@ export default (function test() {
               activeProduct.style.top = activeTop + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animActiveLeft = setInterval(function() {
 
@@ -247,12 +247,12 @@ export default (function test() {
               activeProduct.style.left = activeLeft + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animSwitchActive = setTimeout(function() {
             toggleClass(activeProduct, 'container-shop__active-product');
             toggleClass(activeProduct, 'container-shop__last-product');
-          }, 250);
+          }, 125);
 
           //////////////////////
           //  precedent part  //
@@ -272,7 +272,7 @@ export default (function test() {
               precedentProduct.style.left = precedentLeft + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
 
           let animPrecedentTransform = setInterval(function() {
@@ -283,7 +283,7 @@ export default (function test() {
               precedentProduct.style.transform = `translate(-50%, -${precedentTransform}%)`;
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animPrecedentTop = setInterval(function() {
 
@@ -293,7 +293,7 @@ export default (function test() {
               precedentProduct.style.top = precedentTop + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animPrecedentOpacity = setInterval(function() {
 
@@ -303,7 +303,7 @@ export default (function test() {
               precedentProduct.style.opacity = precedentOpacity;
             }
 
-          }, 43.75);
+          }, 21.875);
 
           let animPrecedentHeight = setInterval(function() {
 
@@ -313,13 +313,13 @@ export default (function test() {
               precedentProduct.style.height = precedentHeight + '%';
             }
 
-          }, 43.75);
+          }, 21.875);
 
           let animSwitchPrecedent = setTimeout(function() {
             toggleClass(precedentProduct, 'container-shop__active-product');
             toggleClass(precedentProduct, 'container-shop__precedent-product');
 
-          }, 250);
+          }, 125);
 
           /////////////////
           //  last part  //
@@ -338,12 +338,12 @@ export default (function test() {
               lastProduct.style.left = lastLeft + '%';
             }
 
-          }, 62.5);
+          }, 31.25);
 
           let animSwitchLast = setTimeout(function() {
             toggleClass(lastProduct, 'container-shop__last-product');
             toggleClass(lastProduct, 'container-shop__precedent-product');
-          }, 250);
+          }, 125);
 
         }());
     }
