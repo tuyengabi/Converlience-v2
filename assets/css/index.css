@@ -553,18 +553,14 @@ footer {
     margin: 5rem 0 8rem 0;
     font-size: 4rem; }
   .container-article article {
-    width: 90%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-    .container-article article div {
-      width: 25%;
-      height: 100%; }
-      .container-article article div p {
+    display: flex; }
+    .container-article article .article {
+      width: 25%; }
+      .container-article article .article .article__paragraphe {
         font-size: 1.5rem;
         margin: .5rem;
         height: 50%; }
-      .container-article article div img {
+      .container-article article .article .article__img {
         width: 100%;
         height: 50%; }
 
