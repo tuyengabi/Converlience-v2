@@ -473,7 +473,8 @@ textarea {
   background-size: cover;
   background-position: center center; }
   .header-container h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    line-height: 1.2;
     position: relative;
     top: 30%;
     width: 50%;
@@ -488,7 +489,9 @@ textarea {
     max-width: 50rem;
     width: 50%;
     padding: 1rem;
-    margin-left: 4rem; }
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    line-height: 1.7; }
   .header-container a {
     position: relative;
     top: 40vh; }

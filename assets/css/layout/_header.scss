@@ -5,8 +5,10 @@
   background-image: url("../img/resilient.jpg");
   background-size: cover;
   background-position: center center;
+
   h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
+    line-height: 1.2;
     position: relative;
     top: 30%;
     width: 50%;
@@ -26,6 +28,8 @@
     width: 50%;
     padding: 1rem;
     margin-left: 4rem;
+    font-size: 1.7rem;
+    line-height: 1.7;
   }
 
   a {
