@@ -469,7 +469,7 @@ textarea {
   height: 100vh;
   width: 100%;
   font-size: 2rem;
-  background-image: url("../img/resilient.jpg");
+  background-image: url("../img/more-resilient.jpg");
   background-size: cover;
   background-position: center center; }
   .header-container h1 {
@@ -516,7 +516,8 @@ aside {
   top: 50%;
   transform: translate(0, -50%);
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  z-index: 1; }
 
 footer {
   margin-top: 0;

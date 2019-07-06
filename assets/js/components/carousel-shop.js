@@ -10,10 +10,10 @@ export default (function test() {
 
   shopSection.onclick = (event) => {
 
-    const allProduct = document.getElementsByClassName('container-shop__fieldset') ;
+    const allProduct = document.getElementsByClassName('container-shop__fieldset');
     const activeProduct = document.querySelector(".container-shop__active-product");
-    const precedentProduct = document.querySelector('.container-shop__precedent-product')
-    const lastProduct = document.querySelector('.container-shop__last-product')
+    const precedentProduct = document.querySelector('.container-shop__precedent-product');
+    const lastProduct = document.querySelector('.container-shop__last-product');
 
     if(event.target == buttonRight) {
       toggleClass(precedentProduct, 'container-shop__precedent-product');
