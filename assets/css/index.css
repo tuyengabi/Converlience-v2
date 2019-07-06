@@ -547,7 +547,7 @@ textarea {
   height: 100vh;
   width: 100%;
   font-size: 2rem;
-  background-image: url("../img/resilient.jpg");
+  background-image: url("../img/more-resilient.jpg");
   background-size: cover;
   background-position: center center;
 }
@@ -615,23 +615,25 @@ footer {
   flex-direction: column;
   height: auto;
   width: 100%;
-  font-size: 1.5rem;
-  background: linear-gradient(0.5turn, #6cd8a2, #fffbe5, #2d3f4b);
+  font-size: 1.8rem;
+  background: linear-gradient(0.5turn, rgba(255, 205, 102, 0.6), #2d3f4b);
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 footer .footer__section-nav-extra {
-  border-top: 1px solid black;
+  border-top: 1px solid #2d3f4b;
   margin-top: 20rem auto 0 auto;
   padding-top: 3rem;
-  width: 60%;
+  width: 85%;
   display: flex;
   justify-content: space-around;
 }
 footer .footer__section-nav-extra div {
-  margin: 2%;
+  width: auto;
 }
 footer .footer__section-nav-extra div h3 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   margin-bottom: 2rem;
 }
 footer .footer__section-network {
@@ -708,7 +710,8 @@ footer .footer__section-copyright {
 .container-shop {
   height: 100vh;
   position: relative;
-  background-color: #6cd8a2;
+  background-color: rgba(255, 205, 102, 0.6);
+  z-index: -1;
 }
 .container-shop__fieldset, .container-shop__last-product, .container-shop__precedent-product, .container-shop__active-product {
   position: absolute;
