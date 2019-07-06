@@ -1,19 +1,25 @@
 footer{
+  margin-top: 0;
   display: flex;
   flex-direction: column;
-  margin-top: 10rem;
-  height: 60vh;
+  height: auto;
   width: 100%;
-  font-size: 2rem;
-  background: linear-gradient(50deg,#2D3F4B,#C7C7A6 );
+  font-size: 1.5rem;
+  background: linear-gradient(0.50turn, rgb(108,216,162),rgb(255,251,229),rgb(45,63,75));
   background-size: cover;
+
   .footer__section-nav-extra{
+    border-top: 1px solid black;
+    margin-top: 20rem auto 0 auto;
+    padding-top: 3rem;
+    width: 60%;
     display:flex;
     justify-content: space-around;
     div{
       margin: 2%;
       h3{
-        margin-bottom: 2vh;
+        font-size: 3rem;
+        margin-bottom: 2rem;
       }
     }
   }
@@ -22,16 +28,15 @@ footer{
     align-items:center;
     justify-content: space-around;
     width: 50vw;
-    margin: auto;
+    margin: 10rem auto 5rem auto;
   }
 
   .footer__section-copyright{
+    border-top: 1px solid rgba(255, 251, 229, 0.6);
     text-align: center;
-    padding:1rem;
-    img {
-      width: 80vw;
-      text-align:center;
-      height: 0.1em;
-    }
+    margin: auto;
+    color: rgb(255, 251, 229);
+    width: 60%;
+    padding: 4rem;
   }
 }

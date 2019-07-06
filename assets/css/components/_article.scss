@@ -1,11 +1,12 @@
 .container-article {
+  background-color: rgb(255,251,229);
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: auto;
-  margin: 5rem 0 5rem 0;
-
+  padding: 5rem 0 10rem 0;
+  
   h2 {
     margin: 2rem;
     font-size: 4rem;
@@ -13,7 +14,7 @@
 
   .container-article__description {
     text-align: center;
-    margin: 3rem 15rem 10rem 15rem;
+    margin: 0 15rem 10rem 15rem;
     font-size: 1.9rem;
     line-height: 1.7;
   }

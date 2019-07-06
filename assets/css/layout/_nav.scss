@@ -6,7 +6,7 @@
   align-items: center;
   height: 10rem;
   width: 100%;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgb(255, 251, 229);
   z-index: 5;
 
   .navbar__logo {
@@ -31,7 +31,7 @@
       height: 100%;
 
       &:hover {
-        background-color: rgba(0, 0, 0, .1);
+        background-color: rgba(45, 63, 75, 0.2);
       }
 
       .border {
@@ -61,7 +61,7 @@
         height: 3px;
         bottom: 0;
         left: 0;
-        background: #f45b69;
+        background: rgb(255, 127, 102);
         position: absolute;
         transition: all 400ms;
         -webkit-transition: all 400ms;
@@ -82,7 +82,7 @@
         height: 3px;
         bottom: 0;
         left: 0;
-        background: #4062bb;
+        background: rgb(102,152,255);
         position: absolute;
         transition: all 400ms;
         -webkit-transition: all 400ms;
@@ -103,7 +103,7 @@
         height: 3px;
         bottom: 0;
         left: 0;
-        background: #43aa8b;
+        background: rgb(108, 216, 162);
         position: absolute;
         transition: all 400ms;
         -webkit-transition: all 400ms;
@@ -123,7 +123,7 @@
         height: 3px;
         bottom: 0;
         left: 0;
-        background: #ffd954;
+        background: rgb(255,205,102);
         position: absolute;
         transition: all 400ms;
         -webkit-transition: all 400ms;
