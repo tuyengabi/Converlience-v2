@@ -54,3 +54,8 @@
     }
   }
 }
+
+.header-food-container {
+  @extend .header-container;
+  background-image: url("../img/food.jpg");
+}
