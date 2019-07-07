@@ -385,7 +385,7 @@ textarea {
   align-items: center;
   height: 10rem;
   width: 100%;
-  background-color: #fffbe5;
+  background-color: #fff;
   z-index: 5;
 }
 .navbar .navbar__logo {
@@ -711,7 +711,6 @@ footer .footer__section-copyright {
   height: 100vh;
   position: relative;
   background-color: rgba(255, 205, 102, 0.6);
-  z-index: -1;
 }
 .container-shop__fieldset, .container-shop__last-product, .container-shop__precedent-product, .container-shop__active-product {
   position: absolute;
