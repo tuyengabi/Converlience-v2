@@ -1,91 +1,126 @@
-.header-container {
-  height: 100vh;
-  width: 100%;
-  font-size: 2rem;
-  background-image: url("../img/more-resilient.jpg");
-  background-size: cover;
-  background-position: center center;
-
-  h1 {
-    font-size: 3.5rem;
-    line-height: 1.2;
-    position: relative;
-    top: 30%;
-    width: 50%;
-    padding: 1rem;
-    margin-left: 4rem;
-    color: rgb(255,251,229);
-
-    img {
-      width: 10rem;
-      height: 0.2rem;
-    }
-  }
-
-  p {
-    position: relative;
-    top: 35%;
-    max-width: 50rem;
-    width: 50%;
-    padding: 1rem;
-    margin-left: 4rem;
-    font-size: 1.7rem;
-    line-height: 1.7;
-    color: rgb(255,251,229);
-  }
-
-  a {
-    position: relative;
-    top: 40vh;
-  }
-
-  button {
-    width: 40%;
-    max-width: 50rem;
-    margin: 1rem 1rem 1rem 5rem;
-    height: 5.4rem;
-    color: black;
-    background-color: rgba(255,180,26, 0.8);
-    text-decoration: none;
-    border: none;
-    &:hover {
-      background-color: #2d2d2d;
-      border: solid .1rem #1d1d1d;
-    }
-  }
+/* 
+    ##Device = Most of the Smartphones Mobiles (Portrait)
+    ##Screen = B/w 320px to 479px
+*/
+/* 
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px
+*/
+  
+@media (max-width: 767px) {
+    
+  //CSS
+  
 }
 
-.header-pages-themes-container {
-  @extend .header-container;
-  display:flex;
-  justify-content: flex-end;
-  h1{
-      color: black;
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  //CSS
+  
+}
+
+/* 
+##Device = Desktops
+##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+
+  .header-container {
+    height: 100vh;
+    width: 100%;
+    font-size: 2rem;
+    background-image: url("../img/more-resilient.jpg");
+    background-size: cover;
+    background-position: center center;
+  
+    h1 {
+      font-size: 3.5rem;
+      line-height: 1.2;
+      position: relative;
+      top: 30%;
+      width: 50%;
+      padding: 1rem;
+      margin-left: 4rem;
+      color: rgb(255,251,229);
+  
+      img {
+        width: 10rem;
+        height: 0.2rem;
       }
-  p{
-
-    color: black;
-    width : 80%;
+    }
+  
+    p {
+      position: relative;
+      top: 35%;
+      max-width: 50rem;
+      width: 50%;
+      padding: 1rem;
+      margin-left: 4rem;
+      font-size: 1.7rem;
+      line-height: 1.7;
+      color: rgb(255,251,229);
+    }
+  
+    a {
+      position: relative;
+      top: 40vh;
+    }
+  
+    button {
+      width: 40%;
+      max-width: 50rem;
+      margin: 1rem 1rem 1rem 5rem;
+      height: 5.4rem;
+      color: black;
+      background-color: rgba(255,180,26, 0.8);
+      text-decoration: none;
+      border: none;
+      &:hover {
+        background-color: #2d2d2d;
+        border: solid .1rem #1d1d1d;
+      }
+    }
   }
-}
-
-.header-health-container{
-@extend .header-pages-themes-container;
-background-image:url("../img/article5.jpg");
-}
-
-.header-food-container{
+  
+  .header-pages-themes-container {
+    @extend .header-container;
+    display:flex;
+    justify-content: flex-end;
+    h1{
+        color: black;
+        }
+    p{
+  
+      color: black;
+      width : 80%;
+    }
+  }
+  
+  .header-health-container{
   @extend .header-pages-themes-container;
-  background-image: url("../img/food.jpg");
-
+  background-image:url("../img/article5.jpg");
+  }
+  
+  .header-food-container{
+    @extend .header-pages-themes-container;
+    background-image: url("../img/food.jpg");
+  
+  }
+  
+  .header-energy-container{
+    @extend .header-pages-themes-container;
+    background-image: url("../img/energie.jpg");
+  }
+  
+  .header-garden-container{
+    @extend .header-pages-themes-container;
+    background-image: url("../img/jardinage.jpg");
+  }  
 }
 
-.header-energy-container{
-  @extend .header-pages-themes-container;
-  background-image: url("../img/energie.jpg");
-}
-
-.header-garden-container{
-  @extend .header-pages-themes-container;
-  background-image: url("../img/jardinage.jpg");
-}
