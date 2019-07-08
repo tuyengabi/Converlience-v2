@@ -11,12 +11,22 @@
 @import 'layout/header.scss';
 @import 'layout/aside.scss';
 @import 'layout/footer.scss';
+@import 'layout/main.scss';
 
 //////////////////
 //  components  //
 //////////////////
 @import 'components/article.scss';
 @import 'components/shop-carousel.scss';
+
+///////////
+// pages //
+///////////
+@import 'pages/health-page';
+@import 'pages/garden-page';
+@import 'pages/food-page';
+@import 'pages/energy-page';
+@import 'pages/pages-themes';
 
 /////////////////
 //  abstracts  //

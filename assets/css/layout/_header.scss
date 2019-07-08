@@ -55,7 +55,37 @@
   }
 }
 
-.header-food-container {
+.header-pages-themes-container {
   @extend .header-container;
+  display:flex;
+  justify-content: flex-end;
+  h1{
+      color: black;
+      }
+  p{
+
+    color: black;
+    width : 80%;
+  }
+}
+
+.header-health-container{
+@extend .header-pages-themes-container;
+background-image:url("../img/article5.jpg");
+}
+
+.header-food-container{
+  @extend .header-pages-themes-container;
   background-image: url("../img/food.jpg");
+
+}
+
+.header-energy-container{
+  @extend .header-pages-themes-container;
+  background-image: url("../img/energie.jpg");
+}
+
+.header-garden-container{
+  @extend .header-pages-themes-container;
+  background-image: url("../img/jardinage.jpg");
 }
