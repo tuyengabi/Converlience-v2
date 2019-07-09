@@ -656,9 +656,13 @@ footer {
           width: 100%; }
   .main-content-pages-themes .section-input article, .main-content-pages-garden .section-input article, .main-content-pages-food .section-input article, .main-content-pages-health .section-input article, .main-content-pages-energy .section-input article {
     font-size: 2rem; }
-    .main-content-pages-themes .section-input article input, .main-content-pages-garden .section-input article input, .main-content-pages-food .section-input article input, .main-content-pages-health .section-input article input, .main-content-pages-energy .section-input article input {
-      font-size: 2rem;
-      margin-bottom: 2rem; }
+    .main-content-pages-themes .section-input article input[type=search], .main-content-pages-garden .section-input article input[type=search], .main-content-pages-food .section-input article input[type=search], .main-content-pages-health .section-input article input[type=search], .main-content-pages-energy .section-input article input[type=search] {
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      box-sizing: border-box; }
+    .main-content-pages-themes .section-input article .tags, .main-content-pages-garden .section-input article .tags, .main-content-pages-food .section-input article .tags, .main-content-pages-health .section-input article .tags, .main-content-pages-energy .section-input article .tags {
+      font-size: 1.5rem; }
 
 .main-content-pages-garden {
   background: #6cd8a2; }

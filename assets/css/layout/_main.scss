@@ -105,10 +105,15 @@
         
         article{
             font-size: 2rem;
-            input{
-            font-size: 2rem;
-            margin-bottom: 2rem;
-        } 
+            input[type=search] {
+              width: 100%;
+              padding: 12px 20px;
+              margin: 8px 0;
+              box-sizing: border-box;
+            }
+        .tags{
+            font-size: 1.5rem;
+        }
         }
        
     }
