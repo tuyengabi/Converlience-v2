@@ -1,37 +1,4 @@
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-*/
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-*/
-  
-@media (max-width: 767px) {
-    
-  //CSS
-  
-}
-
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-
-@media (min-width: 768px) and (max-width: 1024px) {
-  
-  //CSS
-  
-}
-
-/* 
-##Device = Desktops
-##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-
-  .header-container {
+.header-container {
     height: 100vh;
     width: 100%;
     font-size: 2rem;
@@ -122,5 +89,5 @@
     @extend .header-pages-themes-container;
     background-image: url("../img/jardinage.jpg");
   }  
-}
+
 
