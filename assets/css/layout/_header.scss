@@ -59,7 +59,10 @@
     @extend .header-container;
     display:flex;
     justify-content: flex-end;
-    h1{
+    div{
+      background-color: rgba(0,0,0,.5);
+
+      h1{
         color: black;
         }
     p{
@@ -67,6 +70,8 @@
       color: black;
       width : 80%;
     }
+    }
+    
   }
   
   .header-health-container{

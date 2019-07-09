@@ -26,14 +26,15 @@
       
         article {
           display: flex;
-          flex-wrap: wrap;
-          justify-content: center;
-          height: 60%;
+          flex-direction: column;
+       //   flex-wrap: wrap;
+       //   justify-content: center;
+          height: auto;
           .article {
             background-color: rgba(0, 0, 0, 0.1);
-            margin: 0 2rem 0 2rem;
-            width: 37rem;
-      
+            margin: auto auto 2rem auto;
+            width: 80rem;
+            
             .article-date-share {
               display: flex;
       

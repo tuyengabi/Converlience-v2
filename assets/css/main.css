@@ -465,88 +465,72 @@ textarea {
   100% {
     width: 15rem;
     height: 10rem; } }
-/* 
-    ##Device = Most of the Smartphones Mobiles (Portrait)
-    ##Screen = B/w 320px to 479px
-*/
-/* 
-    ##Device = Low Resolution Tablets, Mobiles (Landscape)
-    ##Screen = B/w 481px to 767px
-*/
-/* 
-  ##Device = Tablets, Ipads (portrait)
-  ##Screen = B/w 768px to 1024px
-*/
-/* 
-##Device = Desktops
-##Screen = 1281px to higher resolution desktops
-*/
-@media (min-width: 1281px) {
-  .header-container, .header-pages-themes-container, .header-health-container, .header-food-container, .header-energy-container, .header-garden-container {
-    height: 100vh;
-    width: 100%;
-    font-size: 2rem;
-    background-image: url("../img/more-resilient.jpg");
-    background-size: cover;
-    background-position: center center; }
-    .header-container h1, .header-pages-themes-container h1, .header-health-container h1, .header-food-container h1, .header-energy-container h1, .header-garden-container h1 {
-      font-size: 3.5rem;
-      line-height: 1.2;
-      position: relative;
-      top: 30%;
-      width: 50%;
-      padding: 1rem;
-      margin-left: 4rem;
-      color: #fffbe5; }
-      .header-container h1 img, .header-pages-themes-container h1 img, .header-health-container h1 img, .header-food-container h1 img, .header-energy-container h1 img, .header-garden-container h1 img {
-        width: 10rem;
-        height: 0.2rem; }
-    .header-container p, .header-pages-themes-container p, .header-health-container p, .header-food-container p, .header-energy-container p, .header-garden-container p {
-      position: relative;
-      top: 35%;
-      max-width: 50rem;
-      width: 50%;
-      padding: 1rem;
-      margin-left: 4rem;
-      font-size: 1.7rem;
-      line-height: 1.7;
-      color: #fffbe5; }
-    .header-container a, .header-pages-themes-container a, .header-health-container a, .header-food-container a, .header-energy-container a, .header-garden-container a {
-      position: relative;
-      top: 40vh; }
-    .header-container button, .header-pages-themes-container button, .header-health-container button, .header-food-container button, .header-energy-container button, .header-garden-container button {
-      width: 40%;
-      max-width: 50rem;
-      margin: 1rem 1rem 1rem 5rem;
-      height: 5.4rem;
-      color: black;
-      background-color: rgba(255, 180, 26, 0.8);
-      text-decoration: none;
-      border: none; }
-      .header-container button:hover, .header-pages-themes-container button:hover, .header-health-container button:hover, .header-food-container button:hover, .header-energy-container button:hover, .header-garden-container button:hover {
-        background-color: #2d2d2d;
-        border: solid .1rem #1d1d1d; }
+.header-container, .header-pages-themes-container, .header-health-container, .header-food-container, .header-energy-container, .header-garden-container {
+  height: 100vh;
+  width: 100%;
+  font-size: 2rem;
+  background-image: url("../img/more-resilient.jpg");
+  background-size: cover;
+  background-position: center center; }
+  .header-container h1, .header-pages-themes-container h1, .header-health-container h1, .header-food-container h1, .header-energy-container h1, .header-garden-container h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+    position: relative;
+    top: 30%;
+    width: 50%;
+    padding: 1rem;
+    margin-left: 4rem;
+    color: #fffbe5; }
+    .header-container h1 img, .header-pages-themes-container h1 img, .header-health-container h1 img, .header-food-container h1 img, .header-energy-container h1 img, .header-garden-container h1 img {
+      width: 10rem;
+      height: 0.2rem; }
+  .header-container p, .header-pages-themes-container p, .header-health-container p, .header-food-container p, .header-energy-container p, .header-garden-container p {
+    position: relative;
+    top: 35%;
+    max-width: 50rem;
+    width: 50%;
+    padding: 1rem;
+    margin-left: 4rem;
+    font-size: 1.7rem;
+    line-height: 1.7;
+    color: #fffbe5; }
+  .header-container a, .header-pages-themes-container a, .header-health-container a, .header-food-container a, .header-energy-container a, .header-garden-container a {
+    position: relative;
+    top: 40vh; }
+  .header-container button, .header-pages-themes-container button, .header-health-container button, .header-food-container button, .header-energy-container button, .header-garden-container button {
+    width: 40%;
+    max-width: 50rem;
+    margin: 1rem 1rem 1rem 5rem;
+    height: 5.4rem;
+    color: black;
+    background-color: rgba(255, 180, 26, 0.8);
+    text-decoration: none;
+    border: none; }
+    .header-container button:hover, .header-pages-themes-container button:hover, .header-health-container button:hover, .header-food-container button:hover, .header-energy-container button:hover, .header-garden-container button:hover {
+      background-color: #2d2d2d;
+      border: solid .1rem #1d1d1d; }
 
-  .header-pages-themes-container, .header-health-container, .header-food-container, .header-energy-container, .header-garden-container {
-    display: flex;
-    justify-content: flex-end; }
-    .header-pages-themes-container h1, .header-health-container h1, .header-food-container h1, .header-energy-container h1, .header-garden-container h1 {
-      color: black; }
-    .header-pages-themes-container p, .header-health-container p, .header-food-container p, .header-energy-container p, .header-garden-container p {
-      color: black;
-      width: 80%; }
+.header-pages-themes-container, .header-health-container, .header-food-container, .header-energy-container, .header-garden-container {
+  display: flex;
+  justify-content: flex-end; }
+  .header-pages-themes-container h1, .header-health-container h1, .header-food-container h1, .header-energy-container h1, .header-garden-container h1 {
+    color: black; }
+  .header-pages-themes-container p, .header-health-container p, .header-food-container p, .header-energy-container p, .header-garden-container p {
+    color: black;
+    width: 80%; }
 
-  .header-health-container {
-    background-image: url("../img/article5.jpg"); }
+.header-health-container {
+  background-image: url("../img/article5.jpg"); }
 
-  .header-food-container {
-    background-image: url("../img/food.jpg"); }
+.header-food-container {
+  background-image: url("../img/food.jpg"); }
 
-  .header-energy-container {
-    background-image: url("../img/energie.jpg"); }
+.header-energy-container {
+  background-image: url("../img/energie.jpg"); }
 
-  .header-garden-container {
-    background-image: url("../img/jardinage.jpg"); } }
+.header-garden-container {
+  background-image: url("../img/jardinage.jpg"); }
+
 aside {
   position: fixed;
   right: 1rem;
@@ -596,31 +580,95 @@ footer {
 .main-content-pages-themes, .main-content-pages-garden, .main-content-pages-food, .main-content-pages-health, .main-content-pages-energy {
   display: flex;
   justify-content: space-around;
-  padding-top: 2rem; }
-  .main-content-pages-themes .section-article, .main-content-pages-garden .section-article, .main-content-pages-food .section-article, .main-content-pages-health .section-article, .main-content-pages-energy .section-article {
-    width: 30%;
-    margin-bottom: 2rem; }
-    .main-content-pages-themes .section-article article, .main-content-pages-garden .section-article article, .main-content-pages-food .section-article article, .main-content-pages-health .section-article article, .main-content-pages-energy .section-article article {
-      padding-bottom: 2rem;
-      text-align: center; }
-      .main-content-pages-themes .section-article article h2, .main-content-pages-garden .section-article article h2, .main-content-pages-food .section-article article h2, .main-content-pages-health .section-article article h2, .main-content-pages-energy .section-article article h2 {
-        font-size: 3rem;
-        padding-bottom: 2rem; }
-      .main-content-pages-themes .section-article article p, .main-content-pages-garden .section-article article p, .main-content-pages-food .section-article article p, .main-content-pages-health .section-article article p, .main-content-pages-energy .section-article article p {
-        padding-bottom: 2rem;
-        font-size: 2rem; }
-      .main-content-pages-themes .section-article article img, .main-content-pages-garden .section-article article img, .main-content-pages-food .section-article article img, .main-content-pages-health .section-article article img, .main-content-pages-energy .section-article article img {
-        padding-bottom: 2rem;
-        width: 100%; }
-      .main-content-pages-themes .section-article article button, .main-content-pages-garden .section-article article button, .main-content-pages-food .section-article article button, .main-content-pages-health .section-article article button, .main-content-pages-energy .section-article article button {
-        width: 30%;
-        font-size: 1.5rem;
-        border: none;
-        text-decoration: none; }
-  .main-content-pages-themes .section-input article, .main-content-pages-garden .section-input article, .main-content-pages-food .section-input article, .main-content-pages-health .section-input article, .main-content-pages-energy .section-input article {
-    font-size: 2rem; }
-    .main-content-pages-themes .section-input article input, .main-content-pages-garden .section-input article input, .main-content-pages-food .section-input article input, .main-content-pages-health .section-input article input, .main-content-pages-energy .section-input article input {
+   /* .section-article{
+        margin-bottom:2rem;
+        article{
+            background-color: rgba(0, 0, 0, 0.1);
+            margin-bottom:2rem;
+           // text-align:center;
+           width : 37rem;
+
+         h2{
+            font-size: 3rem;
+            padding-bottom:2rem;
+
+        }
+        p{
+            padding-bottom:2rem;
+
+            font-size: 2rem;
+        }
+
+        img{
+            padding-bottom:2rem;
+
+            width: 100%;
+        }   
+        button{
+            width: 30%;
+            font-size:1.5rem;
+            border:none;
+            text-decoration: none;
+        }
+        }
+        
+    }*/ }
+  .main-content-pages-themes .container-article-pages, .main-content-pages-garden .container-article-pages, .main-content-pages-food .container-article-pages, .main-content-pages-health .container-article-pages, .main-content-pages-energy .container-article-pages {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 1rem 0 10rem 0; }
+    .main-content-pages-themes .container-article-pages h2, .main-content-pages-garden .container-article-pages h2, .main-content-pages-food .container-article-pages h2, .main-content-pages-health .container-article-pages h2, .main-content-pages-energy .container-article-pages h2 {
+      text-align: center;
+      margin: 2rem;
+      font-size: 4rem; }
+    .main-content-pages-themes .container-article-pages .container-article__description, .main-content-pages-garden .container-article-pages .container-article__description, .main-content-pages-food .container-article-pages .container-article__description, .main-content-pages-health .container-article-pages .container-article__description, .main-content-pages-energy .container-article-pages .container-article__description {
+      text-align: center;
+      margin: 0 15rem 5rem 15rem;
+      font-size: 1.9rem;
+      line-height: 1.7; }
+    .main-content-pages-themes .container-article-pages article, .main-content-pages-garden .container-article-pages article, .main-content-pages-food .container-article-pages article, .main-content-pages-health .container-article-pages article, .main-content-pages-energy .container-article-pages article {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      height: 60%; }
+      .main-content-pages-themes .container-article-pages article .article, .main-content-pages-garden .container-article-pages article .article, .main-content-pages-food .container-article-pages article .article, .main-content-pages-health .container-article-pages article .article, .main-content-pages-energy .container-article-pages article .article {
+        background-color: rgba(0, 0, 0, 0.1);
+        margin: 0 2rem 0 2rem;
+        width: 37rem; }
+        .main-content-pages-themes .container-article-pages article .article .article-date-share, .main-content-pages-garden .container-article-pages article .article .article-date-share, .main-content-pages-food .container-article-pages article .article .article-date-share, .main-content-pages-health .container-article-pages article .article .article-date-share, .main-content-pages-energy .container-article-pages article .article .article-date-share {
+          display: flex; }
+          .main-content-pages-themes .container-article-pages article .article .article-date-share .article-date, .main-content-pages-garden .container-article-pages article .article .article-date-share .article-date, .main-content-pages-food .container-article-pages article .article .article-date-share .article-date, .main-content-pages-health .container-article-pages article .article .article-date-share .article-date, .main-content-pages-energy .container-article-pages article .article .article-date-share .article-date {
+            padding: 1rem;
+            font-size: 1.5rem; }
+        .main-content-pages-themes .container-article-pages article .article a, .main-content-pages-garden .container-article-pages article .article a, .main-content-pages-food .container-article-pages article .article a, .main-content-pages-health .container-article-pages article .article a, .main-content-pages-energy .container-article-pages article .article a {
+          text-decoration: none; }
+        .main-content-pages-themes .container-article-pages article .article .article__title, .main-content-pages-garden .container-article-pages article .article .article__title, .main-content-pages-food .container-article-pages article .article .article__title, .main-content-pages-health .container-article-pages article .article .article__title, .main-content-pages-energy .container-article-pages article .article .article__title {
+          font-size: 2.4rem;
+          margin: 2rem;
+          line-height: 1.2; }
+        .main-content-pages-themes .container-article-pages article .article .article__paragraphe, .main-content-pages-garden .container-article-pages article .article .article__paragraphe, .main-content-pages-food .container-article-pages article .article .article__paragraphe, .main-content-pages-health .container-article-pages article .article .article__paragraphe, .main-content-pages-energy .container-article-pages article .article .article__paragraphe {
+          font-size: 1.5rem;
+          line-height: 1.7;
+          margin: 2rem;
+          height: 50%; }
+        .main-content-pages-themes .container-article-pages article .article .article__img, .main-content-pages-garden .container-article-pages article .article .article__img, .main-content-pages-food .container-article-pages article .article .article__img, .main-content-pages-health .container-article-pages article .article .article__img, .main-content-pages-energy .container-article-pages article .article .article__img {
+          width: 100%;
+          height: auto; }
+  .main-content-pages-themes .section-input, .main-content-pages-garden .section-input, .main-content-pages-food .section-input, .main-content-pages-health .section-input, .main-content-pages-energy .section-input {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%; }
+    .main-content-pages-themes .section-input article, .main-content-pages-garden .section-input article, .main-content-pages-food .section-input article, .main-content-pages-health .section-input article, .main-content-pages-energy .section-input article {
+      display: flex;
+      justify-content: center;
       font-size: 2rem; }
+      .main-content-pages-themes .section-input article input[type=search], .main-content-pages-garden .section-input article input[type=search], .main-content-pages-food .section-input article input[type=search], .main-content-pages-health .section-input article input[type=search], .main-content-pages-energy .section-input article input[type=search] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 20px 0;
+        box-sizing: border-box; }
+      .main-content-pages-themes .section-input article .tags, .main-content-pages-garden .section-input article .tags, .main-content-pages-food .section-input article .tags, .main-content-pages-health .section-input article .tags, .main-content-pages-energy .section-input article .tags {
+        font-size: 1.5rem; }
 
 .main-content-pages-garden {
   background: #6cd8a2; }
@@ -676,7 +724,8 @@ footer {
         margin: 2rem;
         height: 50%; }
       .container-article article .article .article__img {
-        width: 100%; }
+        width: 100%;
+        height: auto; }
 
 .container-shop {
   height: 100vh;
