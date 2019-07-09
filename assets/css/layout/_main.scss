@@ -9,16 +9,17 @@
       //  align-items: center;
      //   justify-content: center;
         height: auto;
-        padding: 5rem 0 10rem 0;
+        padding: 1rem 0 10rem 0;
 
         h2 {
+          text-align:center;
           margin: 2rem;
           font-size: 4rem;
         }
       
         .container-article__description {
           text-align: center;
-          margin: 0 15rem 10rem 15rem;
+          margin: 0 15rem 5rem 15rem;
           font-size: 1.9rem;
           line-height: 1.7;
           
@@ -104,13 +105,18 @@
     }*/
     .section-input{
 
-        
+      background-color: rgba(0, 0, 0, 0.1);
+      width: 50%;
+      height: 100vh;
         article{
+           display: flex;
+        justify-content: center;
             font-size: 2rem;
             input[type=search] {
-              width: 100%;
+              width: 90%;
+             
               padding: 12px 20px;
-              margin: 8px 0;
+              margin: 20px 0;
               box-sizing: border-box;
             }
         .tags{

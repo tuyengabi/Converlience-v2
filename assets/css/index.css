@@ -618,13 +618,14 @@ footer {
     display: flex;
     flex-direction: column;
     height: auto;
-    padding: 5rem 0 10rem 0; }
+    padding: 1rem 0 10rem 0; }
     .main-content-pages-themes .container-article-pages h2, .main-content-pages-garden .container-article-pages h2, .main-content-pages-food .container-article-pages h2, .main-content-pages-health .container-article-pages h2, .main-content-pages-energy .container-article-pages h2 {
+      text-align: center;
       margin: 2rem;
       font-size: 4rem; }
     .main-content-pages-themes .container-article-pages .container-article__description, .main-content-pages-garden .container-article-pages .container-article__description, .main-content-pages-food .container-article-pages .container-article__description, .main-content-pages-health .container-article-pages .container-article__description, .main-content-pages-energy .container-article-pages .container-article__description {
       text-align: center;
-      margin: 0 15rem 10rem 15rem;
+      margin: 0 15rem 5rem 15rem;
       font-size: 1.9rem;
       line-height: 1.7; }
     .main-content-pages-themes .container-article-pages article, .main-content-pages-garden .container-article-pages article, .main-content-pages-food .container-article-pages article, .main-content-pages-health .container-article-pages article, .main-content-pages-energy .container-article-pages article {
@@ -655,15 +656,21 @@ footer {
         .main-content-pages-themes .container-article-pages article .article .article__img, .main-content-pages-garden .container-article-pages article .article .article__img, .main-content-pages-food .container-article-pages article .article .article__img, .main-content-pages-health .container-article-pages article .article .article__img, .main-content-pages-energy .container-article-pages article .article .article__img {
           width: 100%;
           height: 50%; }
-  .main-content-pages-themes .section-input article, .main-content-pages-garden .section-input article, .main-content-pages-food .section-input article, .main-content-pages-health .section-input article, .main-content-pages-energy .section-input article {
-    font-size: 2rem; }
-    .main-content-pages-themes .section-input article input[type=search], .main-content-pages-garden .section-input article input[type=search], .main-content-pages-food .section-input article input[type=search], .main-content-pages-health .section-input article input[type=search], .main-content-pages-energy .section-input article input[type=search] {
-      width: 100%;
-      padding: 12px 20px;
-      margin: 8px 0;
-      box-sizing: border-box; }
-    .main-content-pages-themes .section-input article .tags, .main-content-pages-garden .section-input article .tags, .main-content-pages-food .section-input article .tags, .main-content-pages-health .section-input article .tags, .main-content-pages-energy .section-input article .tags {
-      font-size: 1.5rem; }
+  .main-content-pages-themes .section-input, .main-content-pages-garden .section-input, .main-content-pages-food .section-input, .main-content-pages-health .section-input, .main-content-pages-energy .section-input {
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%;
+    height: 100vh; }
+    .main-content-pages-themes .section-input article, .main-content-pages-garden .section-input article, .main-content-pages-food .section-input article, .main-content-pages-health .section-input article, .main-content-pages-energy .section-input article {
+      display: flex;
+      justify-content: center;
+      font-size: 2rem; }
+      .main-content-pages-themes .section-input article input[type=search], .main-content-pages-garden .section-input article input[type=search], .main-content-pages-food .section-input article input[type=search], .main-content-pages-health .section-input article input[type=search], .main-content-pages-energy .section-input article input[type=search] {
+        width: 90%;
+        padding: 12px 20px;
+        margin: 20px 0;
+        box-sizing: border-box; }
+      .main-content-pages-themes .section-input article .tags, .main-content-pages-garden .section-input article .tags, .main-content-pages-food .section-input article .tags, .main-content-pages-health .section-input article .tags, .main-content-pages-energy .section-input article .tags {
+        font-size: 1.5rem; }
 
 .main-content-pages-garden {
   background: #6cd8a2; }
