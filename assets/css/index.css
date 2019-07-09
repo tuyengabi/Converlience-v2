@@ -580,7 +580,6 @@ footer {
 .main-content-pages-themes, .main-content-pages-garden, .main-content-pages-food, .main-content-pages-health, .main-content-pages-energy {
   display: flex;
   justify-content: space-around;
-  padding-top: 2rem;
    /* .section-article{
         margin-bottom:2rem;
         article{
@@ -658,8 +657,7 @@ footer {
           height: 50%; }
   .main-content-pages-themes .section-input, .main-content-pages-garden .section-input, .main-content-pages-food .section-input, .main-content-pages-health .section-input, .main-content-pages-energy .section-input {
     background-color: rgba(0, 0, 0, 0.1);
-    width: 50%;
-    height: 100vh; }
+    width: 50%; }
     .main-content-pages-themes .section-input article, .main-content-pages-garden .section-input article, .main-content-pages-food .section-input article, .main-content-pages-health .section-input article, .main-content-pages-energy .section-input article {
       display: flex;
       justify-content: center;
