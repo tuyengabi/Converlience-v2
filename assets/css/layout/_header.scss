@@ -77,22 +77,38 @@
   .header-health-container{
   @extend .header-pages-themes-container;
   background-image:url("../img/article5.jpg");
+  div{
+    background-color: rgba(255, 127, 102, 0.2);
+
+  }
   }
   
   .header-food-container{
     @extend .header-pages-themes-container;
     background-image: url("../img/food.jpg");
-  
+    div{
+      background-color: rgba(255,205,102, 0.2);
+
+    }
   }
   
   .header-energy-container{
     @extend .header-pages-themes-container;
     background-image: url("../img/energie.jpg");
+    div{
+      background-color: rgba(102,152,255, 0.2);
+
+    }
   }
   
   .header-garden-container{
     @extend .header-pages-themes-container;
     background-image: url("../img/jardinage.jpg");
+    div{
+          background-color: rgba(108, 216, 162, 0.2);
+
+    }
+
   }  
 
 

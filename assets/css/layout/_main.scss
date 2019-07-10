@@ -33,7 +33,7 @@
           .article {
             background-color: rgba(0, 0, 0, 0.1);
             margin: auto auto 2rem auto;
-            width: 80rem;
+            width: 55rem;
             
             .article-date-share {
               display: flex;
@@ -128,24 +128,24 @@
 
 .main-content-pages-garden{
     @extend .main-content-pages-themes;
-    background: rgb(108, 216, 162);
+    //background: rgb(108, 216, 162);
 
 }
 
 .main-content-pages-food{
     @extend .main-content-pages-themes;
-    background: rgb(255,205,102);
+    //background: rgb(255,205,102);
 
 }
 
 .main-content-pages-health{
     @extend .main-content-pages-themes;
-    background: rgb(255, 127, 102);
+    //background: rgb(255, 127, 102);
 
 }
 
 .main-content-pages-energy{
     @extend .main-content-pages-themes;
-    background: rgb(102,152,255);
+    //background: rgb(102,152,255);
 
 }
