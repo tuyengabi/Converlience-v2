@@ -1,0 +1,24 @@
+//////////////////////////////////////////////////////
+// css for section with input search of pages theme //
+//////////////////////////////////////////////////////
+.section-input{
+
+    background-color: rgba(0, 0, 0, 0.1);
+    width: 50%;
+      article{
+         display: flex;
+      justify-content: center;
+          font-size: 2rem;
+          input[type=search] {
+            width: 90%;
+           
+            padding: 12px 20px;
+            margin: 20px 0;
+            box-sizing: border-box;
+          }
+      .tags{
+          font-size: 1.5rem;
+      }
+      }
+     
+  }
