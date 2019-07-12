@@ -1,3 +1,6 @@
+///////////////////////////////////
+// css for header of index.html //
+//////////////////////////////////
 .header-container {
     height: 100vh;
     width: 100%;
@@ -55,6 +58,10 @@
     }
   }
   
+////////////////////////////////////  
+// css for header of pages-themes //
+////////////////////////////////////
+
   .header-pages-themes-container {
     @extend .header-container;
     display:flex;
@@ -73,7 +80,9 @@
     }
     
   }
-  
+  ////////////////////////////////////
+  // css for header of health pages //
+  ////////////////////////////////////
   .header-health-container{
   @extend .header-pages-themes-container;
   background-image:url("../img/article5.jpg");
@@ -82,7 +91,9 @@
 
   }
   }
-  
+  ////////////////////////////////////
+  // css for header of foog pages //
+  ////////////////////////////////////
   .header-food-container{
     @extend .header-pages-themes-container;
     background-image: url("../img/food.jpg");
@@ -91,7 +102,9 @@
 
     }
   }
-  
+  ////////////////////////////////////
+  // css for header of energy pages //
+  ////////////////////////////////////
   .header-energy-container{
     @extend .header-pages-themes-container;
     background-image: url("../img/energie.jpg");
@@ -100,7 +113,9 @@
 
     }
   }
-  
+  ////////////////////////////////////
+  // css for header of garden pages //
+  ////////////////////////////////////
   .header-garden-container{
     @extend .header-pages-themes-container;
     background-image: url("../img/jardinage.jpg");
