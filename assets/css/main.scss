@@ -2,7 +2,7 @@
 /////////////////
 //  abstracts  //
 /////////////////
-@import 'abstracts/variables.scss';
+//@import 'abstracts/variables.scss';
 
 //////////
 // base //
@@ -15,6 +15,8 @@
 ////////////
 @import 'layout/nav.scss';
 @import 'layout/header.scss';
+@import 'layout/main.scss';
+@import 'layout/input.scss';
 @import 'layout/aside.scss';
 @import 'layout/footer.scss';
 
@@ -31,5 +33,4 @@
 @import 'pages/garden.scss';
 @import 'pages/food.scss';
 @import 'pages/energy.scss';
-// @import 'pages/main-pages-themes.scss';
 
