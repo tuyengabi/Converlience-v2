@@ -1,7 +1,7 @@
 # Converlience
 ### Un web site réalisé bénévolement pour un projet d'ecologie.
 --------------------
-![https://www.github.com/tuyengabi](./assets/photos/logoreadme.png)
+![https://www.github.com/tuyengabi](assets/photos/logoreadme.png)
 
 ## Projet réalisé dans le cadre de la formation de Développeurs Web à Simplon par :
 
