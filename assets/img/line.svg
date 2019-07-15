@@ -9,6 +9,6 @@
  </g>
  <g>
   <title>Layer 1</title>
-  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="0.75" x2="347.75" y1="0.75" x1="0.75" stroke-width="1.5" stroke="#2D3F4B" fill="none"/>
+  <line stroke-linecap="undefined" stroke-linejoin="undefined" id="svg_1" y2="0.75" x2="347.75" y1="0.75" x1="0.75" stroke-width="1" stroke="rgb(255,180,26)" fill="none"/>
  </g>
 </svg>

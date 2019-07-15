@@ -469,11 +469,11 @@ textarea {
   height: 100vh;
   width: 100%;
   font-size: 2rem;
-  background-image: url("../img/more-resilient.jpg");
+  background-image: url("../img/resilient.jpg");
   background-size: cover;
   background-position: center center; }
-  .header-container h1, .header-pages-themes-container h1, .header-health-container h1, .header-food-container h1, .header-energy-container h1, .header-garden-container h1 {
-    font-size: 3.5rem;
+  .header-container h2, .header-pages-themes-container h2, .header-health-container h2, .header-food-container h2, .header-energy-container h2, .header-garden-container h2 {
+    font-size: 4rem;
     line-height: 1.2;
     position: relative;
     top: 30%;
@@ -481,12 +481,12 @@ textarea {
     padding: 1rem;
     margin-left: 4rem;
     color: #fffbe5; }
-    .header-container h1 img, .header-pages-themes-container h1 img, .header-health-container h1 img, .header-food-container h1 img, .header-energy-container h1 img, .header-garden-container h1 img {
+    .header-container h2 img, .header-pages-themes-container h2 img, .header-health-container h2 img, .header-food-container h2 img, .header-energy-container h2 img, .header-garden-container h2 img {
       width: 10rem;
       height: 0.2rem; }
   .header-container p, .header-pages-themes-container p, .header-health-container p, .header-food-container p, .header-energy-container p, .header-garden-container p {
     position: relative;
-    top: 35%;
+    top: 30%;
     max-width: 50rem;
     width: 50%;
     padding: 1rem;
@@ -496,19 +496,21 @@ textarea {
     color: #fffbe5; }
   .header-container a, .header-pages-themes-container a, .header-health-container a, .header-food-container a, .header-energy-container a, .header-garden-container a {
     position: relative;
-    top: 40vh; }
+    top: 35%; }
   .header-container button, .header-pages-themes-container button, .header-health-container button, .header-food-container button, .header-energy-container button, .header-garden-container button {
-    width: 40%;
+    width: 25%;
     max-width: 50rem;
     margin: 1rem 1rem 1rem 5rem;
-    height: 5.4rem;
+    height: 4.5rem;
     color: black;
     background-color: rgba(255, 180, 26, 0.8);
     text-decoration: none;
     border: none; }
     .header-container button:hover, .header-pages-themes-container button:hover, .header-health-container button:hover, .header-food-container button:hover, .header-energy-container button:hover, .header-garden-container button:hover {
-      background-color: #2d2d2d;
-      border: solid .1rem #1d1d1d; }
+      background-color: transparent;
+      color: rgba(255, 255, 255, 0.9);
+      font-weight: bold;
+      border: 1px solid rgba(255, 180, 26, 0.8); }
 
 .header-pages-themes-container, .header-health-container, .header-food-container, .header-energy-container, .header-garden-container {
   display: flex;
