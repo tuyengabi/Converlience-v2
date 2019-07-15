@@ -4,10 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 10rem;
+  height: 8.5rem;
   width: 100%;
-  // background-color: rgb(255, 251, 229);
-  background-color: #fff;
+  background-color: rgb(255, 251, 229);
   z-index: 5;
 
   .navbar__logo {
@@ -145,12 +144,14 @@
 
   @keyframes navbarIn {
     0% {
-      height: 10rem;
-      background-color: rgba(255, 255, 255, 1);
+      height: 8.5rem;
+      background-color: rgb(255, 251, 229);
     }
     100% {
       height: 7rem;
-      background-color: rgba(150, 150, 150, .7);
+      background-color: rgba(209,209,209, .9);
+      font-family: 'Oswald', sans-serif;
+      font-size: 5rem;
     }
   }
 }
@@ -163,11 +164,12 @@
   @keyframes navbarOut {
     0% {
       height: 7rem;
-      background-color: rgba(150, 150, 150, .7);
+      background-color: rgba(209,209,209, .9);
+      font-size: 5rem;
     }
     100% {
-      height: 10rem;
-      background-color: rgba(255, 255, 255, 1);
+      height: 8.5rem;
+      background-color: rgb(255, 251, 229);
     }
   }
 }
@@ -201,3 +203,8 @@
     }
   }
 }
+
+
+// .navbar__ul__li-health {
+
+// }
