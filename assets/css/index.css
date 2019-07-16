@@ -758,14 +758,13 @@ footer {
 */
 .container-shop {
   height: 100vh;
-  position: relative;
-  background-color: rgba(255, 205, 102, 0.6); }
+  position: relative; }
   .container-shop__fieldset, .container-shop__active-product, .container-shop__precedent-product, .container-shop__last-product {
     position: absolute;
     top: 10%;
     transform: translate(-50%, 0);
-    width: 30%;
-    height: 60%;
+    width: 50%;
+    height: 100%;
     color: white;
     background-color: #1d1d1d;
     border: solid 0.1rem #2d2d2d;
@@ -773,7 +772,7 @@ footer {
   .container-shop__active-product {
     left: 50%;
     top: 50%;
-    height: 70%;
+    height: 120%;
     transform: translate(-50%, -50%);
     opacity: 1;
     z-index: 1;
@@ -809,15 +808,15 @@ footer {
   .container-shop__icon-arrow-left {
     cursor: pointer;
     position: absolute;
-    left: 15%;
-    top: 50%;
+    left: 10%;
+    top: 15%;
     transform: translate(50%, -50%);
     z-index: 2; }
   .container-shop__icon-arrow-right {
     cursor: pointer;
     position: absolute;
-    right: 15%;
-    top: 50%;
+    right: 10%;
+    top: 15%;
     transform: translate(-50%, -50%);
     z-index: 2; }
 
