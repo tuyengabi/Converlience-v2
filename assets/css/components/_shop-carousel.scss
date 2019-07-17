@@ -7,7 +7,7 @@
     position: absolute;
     top: 10%;
     transform: translate(-50%, 0);
-    width: 50%;
+    width: 60%;
     height: auto;
     margin: 16rem auto 10rem auto;
     color: white;
@@ -20,7 +20,7 @@
     @extend .container-shop__fieldset;
     left: 50%;
     top: 50%;
-    height: 120%;
+    height: 150%;
     transform: translate(-50%, -50%);
     opacity: 1;
     z-index: 1;
@@ -67,9 +67,10 @@
     }
 
     img {
+      object-fit: cover;
       width: 50%;
       height: 100%;
-      padding: 1rem;
+      padding: 5rem 0 5rem 5rem;
     }
 
   }
@@ -84,7 +85,7 @@
     cursor: pointer;
     position: absolute;
     left: 10%;
-    top: 55%;
+    top: 45%;
     transform: translate(50%, -50%);
     z-index: 2;
   }
@@ -93,7 +94,7 @@
     cursor: pointer;
     position: absolute;
     right: 10%;
-    top: 55%;
+    top: 45%;
     transform: translate(-50%, -50%);
     z-index: 2;
   }
