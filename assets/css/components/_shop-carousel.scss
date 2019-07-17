@@ -1,18 +1,19 @@
 .container-shop {
   height: 100vh;
   position: relative;
-  // background-color: rgba(255,205,102, 0.6);
+  background-color: rgb(255,251,229);
 
   &__fieldset {
     position: absolute;
     top: 10%;
     transform: translate(-50%, 0);
     width: 50%;
-    height: 100%;
+    height: auto;
+    margin: 16rem auto 10rem auto;
     color: white;
-    background-color: #d1d1d1;
-    border: solid 0.1rem #2d2d2d;
-    opacity: .3;
+    background-color: rgba(0,0,0, .1);
+    // border: solid 0.1rem #2d2d2d;
+    // opacity: .3;
   }
 
   &__active-product {
@@ -29,6 +30,7 @@
 
   &__precedent-product {
     @extend .container-shop__fieldset;
+    display: none;
     left: 25%;
     order: 0;
     transition: all .5s ease-out;
@@ -36,14 +38,17 @@
 
   &__last-product {
     @extend .container-shop__fieldset;
+    display: none;
     left: 75%;
     order: 2;
     transition: all .5s ease-out;
   }
 
   legend {
+    font-size: 3rem;
+    color: $d-blue;
     margin: auto;
-    padding-top: 3rem;
+    padding: 3rem auto 3rem auto;
   }
 
   div {
@@ -54,8 +59,11 @@
     align-items: center;
 
     p {
+      color: black;
+      font-size: 1.5rem;
+      line-height: 1.7;
       width: 50%;
-      padding: 1rem;
+      padding: 3rem;
     }
 
     img {
@@ -76,7 +84,7 @@
     cursor: pointer;
     position: absolute;
     left: 10%;
-    top: 15%;
+    top: 55%;
     transform: translate(50%, -50%);
     z-index: 2;
   }
@@ -85,7 +93,7 @@
     cursor: pointer;
     position: absolute;
     right: 10%;
-    top: 15%;
+    top: 55%;
     transform: translate(-50%, -50%);
     z-index: 2;
   }

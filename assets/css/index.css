@@ -758,17 +758,17 @@ footer {
 */
 .container-shop {
   height: 100vh;
-  position: relative; }
+  position: relative;
+  background-color: #fffbe5; }
   .container-shop__fieldset, .container-shop__active-product, .container-shop__precedent-product, .container-shop__last-product {
     position: absolute;
     top: 10%;
     transform: translate(-50%, 0);
     width: 50%;
-    height: 100%;
+    height: auto;
+    margin: 16rem auto 10rem auto;
     color: white;
-    background-color: #d1d1d1;
-    border: solid 0.1rem #2d2d2d;
-    opacity: .3; }
+    background-color: rgba(0, 0, 0, 0.1); }
   .container-shop__active-product {
     left: 50%;
     top: 50%;
@@ -779,16 +779,20 @@ footer {
     order: 1;
     transition: all .5s ease; }
   .container-shop__precedent-product {
+    display: none;
     left: 25%;
     order: 0;
     transition: all .5s ease-out; }
   .container-shop__last-product {
+    display: none;
     left: 75%;
     order: 2;
     transition: all .5s ease-out; }
   .container-shop legend {
+    font-size: 3rem;
+    color: #2d3f4b;
     margin: auto;
-    padding-top: 3rem; }
+    padding: 3rem auto 3rem auto; }
   .container-shop div {
     width: 100%;
     height: 50%;
@@ -796,8 +800,11 @@ footer {
     justify-content: center;
     align-items: center; }
     .container-shop div p {
+      color: black;
+      font-size: 1.5rem;
+      line-height: 1.7;
       width: 50%;
-      padding: 1rem; }
+      padding: 3rem; }
     .container-shop div img {
       width: 50%;
       height: 100%;
@@ -809,14 +816,14 @@ footer {
     cursor: pointer;
     position: absolute;
     left: 10%;
-    top: 15%;
+    top: 55%;
     transform: translate(50%, -50%);
     z-index: 2; }
   .container-shop__icon-arrow-right {
     cursor: pointer;
     position: absolute;
     right: 10%;
-    top: 15%;
+    top: 55%;
     transform: translate(-50%, -50%);
     z-index: 2; }
 
