@@ -334,6 +334,9 @@ textarea {
   color: #000;
   padding: 0.2em 0; }
 
+body {
+  background-color: #fffbe5; }
+
 .navbar {
   position: absolute;
   top: 0;
@@ -612,7 +615,6 @@ footer {
     padding: 4rem; }
 
 .container-article {
-  background-color: #fffbe5;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -757,9 +759,9 @@ footer {
 }
 */
 .container-shop {
+  margin-top: 14rem;
   height: 100vh;
-  position: relative;
-  background-color: #fffbe5; }
+  position: relative; }
   .container-shop__fieldset, .container-shop__active-product, .container-shop__precedent-product, .container-shop__last-product {
     position: absolute;
     top: 10%;
