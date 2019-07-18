@@ -587,7 +587,8 @@ footer {
   background: url(https://cdn.pixabay.com/photo/2017/05/13/17/41/textile-2310247_960_720.png), #2d3f4b;
   background-size: cover;
   justify-content: center;
-  align-items: center; }
+  align-items: center;
+  color: #fffbe5; }
   footer .footer__section-nav-extra {
     border-top: 1px solid #2d3f4b;
     margin-top: 20rem auto 0 auto;
@@ -598,6 +599,7 @@ footer {
     footer .footer__section-nav-extra div {
       width: auto; }
       footer .footer__section-nav-extra div h3 {
+        color: #fffbe5;
         font-size: 1.3em;
         margin-bottom: 2rem; }
   footer .footer__section-network {
