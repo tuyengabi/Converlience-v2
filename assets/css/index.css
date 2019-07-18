@@ -584,7 +584,7 @@ footer {
   height: auto;
   width: 100%;
   font-size: 1.8em;
-  background: linear-gradient(0.5turn, rgba(255, 205, 102, 0.6), #2d3f4b), url(https://cdn.pixabay.com/photo/2017/05/13/17/41/textile-2310247_960_720.png);
+  background: url(https://cdn.pixabay.com/photo/2017/05/13/17/41/textile-2310247_960_720.png), #2d3f4b;
   background-size: cover;
   justify-content: center;
   align-items: center; }
