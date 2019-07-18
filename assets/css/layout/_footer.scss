@@ -9,7 +9,7 @@ footer{
   background-size: cover;
   justify-content: center;
   align-items: center;
-
+  color: rgb(255, 251, 229);
   .footer__section-nav-extra{
     border-top: 1px solid rgb(45,63,75);
     margin-top: 20rem auto 0 auto;
@@ -22,6 +22,7 @@ footer{
       width: auto;
 
       h3{
+        color: rgb(255, 251, 229);
         font-size: 1.3em;
         margin-bottom: 2rem;
       }
