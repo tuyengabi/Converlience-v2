@@ -761,7 +761,7 @@ footer {
 }
 */
 .container-shop {
-  margin-top: 14rem;
+  margin-top: 10rem;
   height: 100vh;
   position: relative; }
   .container-shop__fieldset, .container-shop__active-product, .container-shop__precedent-product, .container-shop__last-product {
