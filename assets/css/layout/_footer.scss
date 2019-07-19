@@ -1,15 +1,17 @@
 footer{
-  margin-top: 0;
+  margin-top: 50rem;
   display: flex;
   flex-direction: column;
   height: auto;
   width: 100%;
   font-size: 1.8em;
-  background: url(https://cdn.pixabay.com/photo/2017/05/13/17/41/textile-2310247_960_720.png), $d-blue;
+  background: url('../img/footer-fond.png'), $d-blue;
   background-size: cover;
+  background-position: center bottom;
   justify-content: center;
   align-items: center;
   color: rgb(255, 251, 229);
+
   .footer__section-nav-extra{
     border-top: 1px solid rgb(45,63,75);
     margin-top: 20rem auto 0 auto;
@@ -28,6 +30,7 @@ footer{
       }
     }
   }
+
   .footer__section-network{
     border-top: 1px solid rgba(255, 251, 229, 0.6);
     display: flex;
