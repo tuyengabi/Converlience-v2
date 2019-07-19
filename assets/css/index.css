@@ -578,7 +578,6 @@ aside {
   z-index: 1; }
 
 footer {
-  margin-top: 50rem;
   display: flex;
   flex-direction: column;
   height: auto;
@@ -591,7 +590,6 @@ footer {
   align-items: center;
   color: #fffbe5; }
   footer .footer__section-nav-extra {
-    border-top: 1px solid #2d3f4b;
     margin-top: 20rem auto 0 auto;
     padding-top: 3rem;
     width: 85%;
@@ -764,7 +762,7 @@ footer {
 }
 */
 .container-shop {
-  margin-top: 10rem;
+  margin: 10rem auto 54rem auto;
   height: 100vh;
   position: relative; }
   .container-shop__fieldset, .container-shop__active-product, .container-shop__precedent-product, .container-shop__last-product {
