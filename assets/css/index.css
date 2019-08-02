@@ -530,24 +530,25 @@ body {
       width: 80%; }
 
 .header-health-container {
-  background-image: url("../img/article5.jpg"); }
+  background-image: url("../img/heath4.jpg");
+  background-position: center 0; }
   .header-health-container div {
-    background-color: rgba(255, 127, 102, 0.2); }
+    background-color: rgba(255, 127, 102, 0.5); }
 
 .header-food-container {
   background-image: url("../img/food.jpg"); }
   .header-food-container div {
-    background-color: rgba(255, 205, 102, 0.2); }
+    background-color: rgba(255, 205, 102, 0.5); }
 
 .header-energy-container {
   background-image: url("../img/energie.jpg"); }
   .header-energy-container div {
-    background-color: rgba(102, 152, 255, 0.2); }
+    background-color: rgba(102, 152, 255, 0.5); }
 
 .header-garden-container {
   background-image: url("../img/jardinage.jpg"); }
   .header-garden-container div {
-    background-color: rgba(108, 216, 162, 0.2); }
+    background-color: rgba(108, 216, 162, 0.5); }
 
 .main-content-pages-themes {
   display: flex;
