@@ -530,7 +530,7 @@ body {
       width: 80%; }
 
 .header-health-container {
-  background-image: url("../img/heath4.jpg");
+  background-image: url("../img/health4.jpg");
   background-position: center 0; }
   .header-health-container div {
     background-color: rgba(255, 127, 102, 0.5); }
@@ -568,15 +568,6 @@ body {
       box-sizing: border-box; }
     .section-input article .tags {
       font-size: 1.5rem; }
-
-aside {
-  position: fixed;
-  right: 1rem;
-  top: 50%;
-  transform: translate(0, -50%);
-  display: flex;
-  flex-direction: column;
-  z-index: 1; }
 
 footer {
   display: flex;
@@ -617,6 +608,22 @@ footer {
     color: #fffbe5;
     width: 60%;
     padding: 4rem; }
+
+.thematic-container {
+  display: flex;
+  width: 100vw;
+  height: auto; }
+  .thematic-container .thematic-article-section {
+    display: block;
+    width: 70%; }
+    .thematic-container .thematic-article-section .thematic-article .health-article {
+      display: flex;
+      flex-direction: column; }
+      .thematic-container .thematic-article-section .thematic-article .health-article .health-article__img {
+        width: 80%; }
+  .thematic-container .search-section {
+    display: flex;
+    width: 30%; }
 
 .container-article {
   display: flex;
@@ -662,106 +669,6 @@ footer {
         width: 100%;
         height: auto; }
 
-.container-article-pages {
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  padding: 1rem 0 10rem 0; }
-  .container-article-pages h2 {
-    text-align: center;
-    margin: 2rem;
-    font-size: 4rem; }
-  .container-article-pages .container-article__description {
-    text-align: center;
-    margin: 0 15rem 5rem 15rem;
-    font-size: 1.9rem;
-    line-height: 1.7; }
-  .container-article-pages article {
-    display: flex;
-    flex-direction: column;
-    height: auto; }
-    .container-article-pages article .article {
-      background-color: rgba(0, 0, 0, 0.1);
-      margin: auto auto 2rem auto;
-      width: 65rem; }
-      .container-article-pages article .article .article-date-share {
-        display: flex; }
-        .container-article-pages article .article .article-date-share .article-date {
-          padding: 1rem;
-          font-size: 1.5rem; }
-      .container-article-pages article .article a {
-        text-decoration: none; }
-      .container-article-pages article .article .article__title {
-        font-size: 2.4rem;
-        margin: 2rem;
-        line-height: 1.2; }
-      .container-article-pages article .article .article__paragraphe {
-        font-size: 1.5rem;
-        line-height: 1.7;
-        margin: 2rem;
-        height: 50%; }
-      .container-article-pages article .article .article__img {
-        width: 100%;
-        height: auto; }
-
- /* .section-article{
-      margin-bottom:2rem;
-      article{
-          background-color: rgba(0, 0, 0, 0.1);
-          margin-bottom:2rem;
-         // text-align:center;
-         width : 37rem;
-
-       h2{
-          font-size: 3rem;
-          padding-bottom:2rem;
-
-      }
-      p{
-          padding-bottom:2rem;
-
-          font-size: 2rem;
-      }
-
-      img{
-          padding-bottom:2rem;
-
-          width: 100%;
-      }   
-      button{
-          width: 30%;
-          font-size:1.5rem;
-          border:none;
-          text-decoration: none;
-      }
-      }
-      
-  }*/
-/*
-.main-content-pages-garden{
-  @extend .main-content-pages-themes;
-  //background: rgb(108, 216, 162);
-
-}
-
-.main-content-pages-food{
-  @extend .main-content-pages-themes;
-  //background: rgb(255,205,102);
-
-}
-
-.main-content-pages-health{
-  @extend .main-content-pages-themes;
-  //background: rgb(255, 127, 102);
-
-}
-
-.main-content-pages-energy{
-  @extend .main-content-pages-themes;
-  //background: rgb(102,152,255);
-
-}
-*/
 .container-shop {
   margin: 10rem auto 54rem auto;
   height: 100vh;

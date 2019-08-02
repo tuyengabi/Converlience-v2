@@ -1,0 +1,41 @@
+.thematic-container {
+  display: flex;
+  width: 100vw;
+  height: auto;
+
+  .thematic-article-section {
+    display: block;
+    width: 70%;
+
+    .thematic-article {
+
+      .health-article {
+        display: flex;
+        flex-direction: column;
+
+        .health-article-date-share {
+
+          .health-article-date {
+
+          }
+        
+        }
+
+        .health-article__img {
+          width: 80%;
+        }
+
+        .health-article__title {
+
+        }
+      }
+    }
+  }
+
+  .search-section {
+    display: flex;
+    width: 30%;
+
+  }
+
+}

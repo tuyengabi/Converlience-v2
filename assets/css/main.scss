@@ -18,12 +18,13 @@
 @import 'layout/header.scss';
 @import 'layout/main.scss';
 @import 'layout/input.scss';
-@import 'layout/aside.scss';
+// @import 'layout/aside.scss';
 @import 'layout/footer.scss';
 
 //////////////////
 //  components  //
 //////////////////
+@import 'components/article-health.scss';
 @import 'components/article.scss';
 @import 'components/shop-carousel.scss';
 
