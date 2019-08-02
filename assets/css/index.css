@@ -523,8 +523,8 @@ body {
   justify-content: flex-end; }
   .header-pages-themes-container div, .header-health-container div, .header-food-container div, .header-energy-container div, .header-garden-container div {
     background-color: rgba(0, 0, 0, 0.5); }
-    .header-pages-themes-container div h1, .header-health-container div h1, .header-food-container div h1, .header-energy-container div h1, .header-garden-container div h1 {
-      color: black; }
+    .header-pages-themes-container div h2, .header-health-container div h2, .header-food-container div h2, .header-energy-container div h2, .header-garden-container div h2 {
+      color: #2d3f4b; }
     .header-pages-themes-container div p, .header-health-container div p, .header-food-container div p, .header-energy-container div p, .header-garden-container div p {
       color: black;
       width: 80%; }
