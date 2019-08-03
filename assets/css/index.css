@@ -611,7 +611,6 @@ footer {
 
 .thematic-container {
   display: flex;
-  width: 100vw;
   height: auto; }
   .thematic-container .thematic-article-section {
     display: block;
