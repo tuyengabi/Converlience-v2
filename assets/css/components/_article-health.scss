@@ -6,55 +6,115 @@
     display: block;
     width: 70%;
 
-    .thematic-article {
+    .articles-section {
       display: flex;
       flex-direction: column;
       margin: 5rem auto 5rem auto;
 
-      .health-article {
-      display: flex;
-      flex-direction: column;
-      margin: auto auto 5rem auto;
-      width: 80%;
+      .thematic-article {
+        display: flex;
+        flex-direction: column;
+        margin: auto auto 5rem auto;
+        width: 80%;
 
-        .health-article-date-share {
+        .thematic-article-date-share {
           display: flex;
           font-size: 1.7rem;
           margin: 1rem 0 1rem 0;
 
-          .health-article-date {
+          .thematic-article-date {
 
           }
-        
+
         }
 
-        .health-article__img {
+        .thematic-article__img {
           margin: auto;
           width: 100%;
         }
 
-        .health-article__title {
+        .thematic-article__title {
           margin: 1.5rem 0 1.5rem 0;
           font-size: 3rem;
           line-height: 1.5;
           text-decoration: none;
         }
 
-        .health-article__paragraphe {
-          font-size: 1.5rem;
+        .thematic-article__paragraphe {
+          font-size: 1.6rem;
           line-height: 1.7;
 
           a {
             text-decoration: none;
           }
+
         }
+
       }
+
     }
+
   }
 
   .search-section {
     display: flex;
     width: 30%;
+
+    .search-article {
+      display: flex;
+      flex-direction: column;
+      margin: 8rem 10rem 5rem 0;
+
+      div {
+        display: flex;
+        flex-direction: column;
+        margin: 0 0 4rem 0;
+
+        .search-form {
+
+          .search-input {
+            width: 25rem;
+            height: 3rem;
+            font-size: 1.7rem;
+
+          }
+
+          .search-submit {
+
+            .search-icon {
+
+            }
+
+          }
+
+        }
+
+        .search-title {
+          font-size: 2.2rem;
+          line-height: 1.7;
+          margin: 0 0 1.7rem 0;
+
+        }
+
+        .search-list {
+
+          .search-item {
+            font-size: 1.5rem;
+            line-height: 1.7;
+            margin: 0 0 1rem 0;
+
+            a {
+              text-decoration: none;
+              color: black;
+            }
+
+          }
+
+        }
+
+      }
+
+    }
 
   }
 
