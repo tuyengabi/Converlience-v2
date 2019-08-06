@@ -615,11 +615,32 @@ footer {
   .thematic-container .thematic-article-section {
     display: block;
     width: 70%; }
-    .thematic-container .thematic-article-section .thematic-article .health-article {
+    .thematic-container .thematic-article-section .thematic-article {
       display: flex;
-      flex-direction: column; }
-      .thematic-container .thematic-article-section .thematic-article .health-article .health-article__img {
+      flex-direction: column;
+      margin: 5rem auto 5rem auto; }
+      .thematic-container .thematic-article-section .thematic-article .health-article {
+        display: flex;
+        flex-direction: column;
+        margin: auto auto 5rem auto;
         width: 80%; }
+        .thematic-container .thematic-article-section .thematic-article .health-article .health-article-date-share {
+          display: flex;
+          font-size: 1.7rem;
+          margin: 1rem 0 1rem 0; }
+        .thematic-container .thematic-article-section .thematic-article .health-article .health-article__img {
+          margin: auto;
+          width: 100%; }
+        .thematic-container .thematic-article-section .thematic-article .health-article .health-article__title {
+          margin: 1.5rem 0 1.5rem 0;
+          font-size: 3rem;
+          line-height: 1.5;
+          text-decoration: none; }
+        .thematic-container .thematic-article-section .thematic-article .health-article .health-article__paragraphe {
+          font-size: 1.5rem;
+          line-height: 1.7; }
+          .thematic-container .thematic-article-section .thematic-article .health-article .health-article__paragraphe a {
+            text-decoration: none; }
   .thematic-container .search-section {
     display: flex;
     width: 30%; }

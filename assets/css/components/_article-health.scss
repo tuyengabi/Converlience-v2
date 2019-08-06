@@ -7,12 +7,20 @@
     width: 70%;
 
     .thematic-article {
+      display: flex;
+      flex-direction: column;
+      margin: 5rem auto 5rem auto;
 
       .health-article {
-        display: flex;
-        flex-direction: column;
+      display: flex;
+      flex-direction: column;
+      margin: auto auto 5rem auto;
+      width: 80%;
 
         .health-article-date-share {
+          display: flex;
+          font-size: 1.7rem;
+          margin: 1rem 0 1rem 0;
 
           .health-article-date {
 
@@ -21,11 +29,24 @@
         }
 
         .health-article__img {
-          width: 80%;
+          margin: auto;
+          width: 100%;
         }
 
         .health-article__title {
+          margin: 1.5rem 0 1.5rem 0;
+          font-size: 3rem;
+          line-height: 1.5;
+          text-decoration: none;
+        }
 
+        .health-article__paragraphe {
+          font-size: 1.5rem;
+          line-height: 1.7;
+
+          a {
+            text-decoration: none;
+          }
         }
       }
     }
